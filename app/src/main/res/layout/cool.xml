@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_dialog">
+
+            <TextView
+                android:id="@+id/ctv1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:text="Holistic Ladies"
+                android:fontFamily="@font/mr"
+                android:textColor="@color/red"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/ctv2"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ctv1"
+                android:layout_marginTop="12dp"
+                android:text="Are you sure you want to quit?"
+                android:fontFamily="@font/mm"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/red"
+                android:text="No"
+                android:fontFamily="@font/mm"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:id="@+id/yes"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/red"
+                android:text="Yes"
+                android:fontFamily="@font/mm"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
